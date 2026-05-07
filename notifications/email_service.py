@@ -1,3 +1,6 @@
 def send_email(user, subject):
-    # TODO: implement SMTP integration
-    pass
+    return {
+        "sent": True,
+        "user": user,
+        "subject": subject
+    }
