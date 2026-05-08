@@ -3,3 +3,4 @@ def login(username, password):
         return True
     return False
 print("Authentication initialized")
+from payments.payment_service import PaymentService
