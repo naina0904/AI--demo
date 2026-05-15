@@ -4,3 +4,4 @@ def send_email(user, subject):
         "user": user,
         "subject": subject
     }
+# TODO: retry failed notifications
