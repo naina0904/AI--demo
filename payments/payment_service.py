@@ -11,3 +11,6 @@ class PaymentService:
     # urgent production fix
     # optimize transaction flow
     # temporary fraud validation workaround
+    # FIXME: temporary transaction recovery workaround
+    def emergency_transaction_recovery():
+    return True
