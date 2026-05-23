@@ -18,3 +18,4 @@ class PaymentService:
 
 def validate_release_transactions():
     return True
+# TODO: remove temporary stabilization workarounds after release
