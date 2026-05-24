@@ -13,3 +13,4 @@ def async_forecast_engine():
     pass
 def validate_payment_recovery():
     return emergency_transaction_recovery()
+# experimental AI forecasting pipeline remains unstable
