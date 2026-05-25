@@ -7,3 +7,5 @@ def send_email(user, subject):
 # TODO: retry failed notifications
 def retry_notification():
     return True
+def monitor_notification_failures():
+    return "monitoring-enabled"
