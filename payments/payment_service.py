@@ -1,0 +1,9 @@
+from auth.session_manager import SessionManager
+
+class PaymentService:
+    def process_payment(self, amount):
+        session = SessionManager()
+        return {
+            "amount": amount,
+            "session": session.create_session("payment-user")
+        }
